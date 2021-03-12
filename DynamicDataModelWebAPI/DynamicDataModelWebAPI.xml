@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DynamicDataModelWebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:DynamicDataModelWebAPI.Controllers.FormController.Data(System.String,System.Object)">
+             <summary>
+             通用表單 Endpoint
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /form/AForm/
+                 {
+                    "Name": "Item1",
+                    "Number": 1
+                 }
+            
+             </remarks>
+             <param name="type">表單類型</param>
+             <param name="query">要處理的表單資料</param>
+             <returns></returns>
+        </member>
+    </members>
+</doc>

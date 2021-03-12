@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WinServiceApp": {
+      "commandName": "Project",
+      "commandLineArgs": "-env:Debug"
+    }
+  }
+}
