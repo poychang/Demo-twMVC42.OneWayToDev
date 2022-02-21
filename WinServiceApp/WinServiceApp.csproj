@@ -15,21 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <None Update="appsettings - Copy.Debug.json">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-          <DependentUpon>appsettings.Debug.json</DependentUpon>
-        </None>
-        <None Update="appsettings.Release.json">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Update="appsettings.json">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Update="appsettings.Debug.json">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-            <DependentUpon>appsettings.json</DependentUpon>
-        </None>
-        <None Update="appsettings.Release.json">
+        <None Update="appsettings.*.json">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
             <DependentUpon>appsettings.json</DependentUpon>
         </None>

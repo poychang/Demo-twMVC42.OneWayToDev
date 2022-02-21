@@ -331,3 +331,4 @@ ASALocalRun/
 
 # NPM
 # package-lock.json
+.ionide
